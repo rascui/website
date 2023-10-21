@@ -248,8 +248,8 @@ section {
   border-radius: 5px;
   font-weight: 500;
   color: #000;
-  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0,
-    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 6px 12px rgba(0, 0, 0, 0.1);
+
   transition: all 0.3s ease;
 }
 
@@ -366,7 +366,7 @@ p {
   height: 490px;
   background: #f2f6fb;
   border-radius: 50%;
-  box-shadow: 0 1px 6px 5.94px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 6px 12px rgba(0, 0, 0, 0.1);
   animation: rotateText 30s linear infinite;
 }
 
@@ -463,8 +463,8 @@ p {
   font-size: 1rem;
   font-weight: 500;
   color: #000;
-  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0,
-    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 6px 12px rgba(0, 0, 0, 0.1);
+
   margin-right: 0.5rem;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -523,8 +523,8 @@ p {
 }
 
 .servicesItem {
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0,
-    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 6px 12px rgba(0, 0, 0, 0.1);
+
   padding: 2rem 1rem;
   border-radius: 10px;
   background: var(--gradient-white-bg2);
@@ -537,8 +537,8 @@ p {
 }
 
 .icon-services i {
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0,
-    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 6px 12px rgba(0, 0, 0, 0.1);
+
   padding: 0.5rem;
   border-radius: 50%;
   background: var(--gradient-color-bg);
@@ -581,8 +581,8 @@ p {
 
 .readMore {
   background: var(--gradient-white-bg2);
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0,
-    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 6px 12px rgba(0, 0, 0, 0.1);
+
   padding: 10px 20px;
   border-radius: 5px;
   font-size: 1rem;
@@ -599,8 +599,8 @@ p {
   align-items: center;
   width: 100%;
   background: var(--gradient-white-bg2);
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0,
-    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 6px 12px rgba(0, 0, 0, 0.1);
+
   margin-top: 8rem;
   border-radius: 10px;
   padding: 0rem 2rem;
@@ -685,8 +685,8 @@ p {
   border: none;
   font-weight: 500;
   color: #000;
-  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0,
-    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 6px 12px rgba(0, 0, 0, 0.1);
+
   margin-right: 0.5rem;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -717,7 +717,8 @@ button.mixitup-control-active {
   align-items: center;
   gap: 0.5rem;
   padding: 0.5rem;
-  box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 6px 12px rgba(0, 0, 0, 0.1);
+
   background: var(--gradient-white-bg2);
   border-radius: 10px;
   transition: all 0.3s ease;
@@ -766,7 +767,7 @@ button.mixitup-control-active {
 
 .card {
   background: var(--gradient-white-bg2);
-  box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 6px 12px rgba(0, 0, 0, 0.1);
   padding: 1rem;
   border-radius: 10px;
 }
@@ -857,7 +858,7 @@ button.mixitup-control-active {
 .skills {
   width: 100%;
   background: var(--gradient-white-bg2);
-  box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 6px 12px rgba(0, 0, 0, 0.1);
   padding: 1rem;
   border-radius: 10px;
 }
@@ -936,8 +937,8 @@ form .btn {
   margin-bottom: 1rem;
   padding: 20px;
   border-radius: 50%;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
-    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 6px 12px rgba(0, 0, 0, 0.1);
+
   display: flex;
   align-items: center;
   justify-content: center;
