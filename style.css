@@ -789,7 +789,7 @@ button.mixitup-control-active {
 .card img {
   width: 100%;
   height: 100%;
-  /* aspect-ratio: 4/3; */
+  aspect-ratio: 4/3;
   object-fit: cover;
   transition: 0.5s;
   display: block;
