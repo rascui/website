@@ -750,6 +750,16 @@ button.mixitup-control-active {
   margin: 0.5rem 0 1rem 0;
 }
 
+.image-icon{
+  display: inline-block;
+  text-decoration: none;
+}
+.image-icon img{
+  width: 50px;
+  height: auto;
+  overflow: hidden;
+}
+
 /* ==================== Blog section css code ============================ */
 
 .blog-box {
@@ -779,9 +789,16 @@ button.mixitup-control-active {
 .card img {
   width: 100%;
   height: 100%;
+  aspect-ratio: 4/3;
   object-fit: cover;
   transition: 0.5s;
   display: block;
+}
+
+.blog-box .card-top img{
+  /* width: 100%;
+  height: 366px; */
+  
 }
 
 .card:hover img {
