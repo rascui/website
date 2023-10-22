@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import './assets/css/style.css';
 import HeaderNav from './components/HeaderNav';
+import SectionHome from './components/SectionHome';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         </a>
         <HeaderNav />
       </header>
+      <SectionHome />
     </div>
   );
 }
