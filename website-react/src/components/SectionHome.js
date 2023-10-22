@@ -5,7 +5,7 @@ const SectionHome = () => {
 	const textRef = useRef(null);
 
 	useEffect(() => {
-		if (textRef.current) {
+		if (textRef.current && !textRef.current.innerHTML.includes("<b")) {
 			const text = textRef.current;
 			text.innerHTML = text.innerHTML.split("").map((char, i) =>
 				`<b style="transform:rotate(${i * 6.3}deg)">${char}</b>`
