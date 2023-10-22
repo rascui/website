@@ -5,6 +5,7 @@ import PageProgress from './components/PageProgress';
 import SectionHome from './components/SectionHome';
 import SectionAbout from './components/SectionAbout';
 import SectionServices from './components/SectionServices';
+import SectionPortfolio from './components/SectionPortfolio';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <SectionHome />
       <SectionAbout />
       <SectionServices />
+      <SectionPortfolio />
       <PageFooter />
       <PageProgress />
     </div>
