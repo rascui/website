@@ -6,9 +6,7 @@ import SectionAbout from './components/SectionAbout';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <HeaderNav />
-      </header>
+      <HeaderNav />
       <SectionHome />
       <SectionAbout />
     </div>
