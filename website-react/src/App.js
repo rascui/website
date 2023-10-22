@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import './assets/css/style.css';
+import HeaderNav from './components/HeaderNav';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         >
           Learn React
         </a>
+        <HeaderNav />
       </header>
     </div>
   );
