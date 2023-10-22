@@ -47,43 +47,43 @@ const SectionHome = () => {
 					</a>
 				</div>
 
-				<div class="social-media">
-					<div class="bg-icon">
+				<div className="social-media">
+					<div className="bg-icon">
 						<a
 							href="https://www.instagram.com/ras.cui/"
 							target="_blank"
 							rel="noreferrer"
 						>
-							<i class="bx bxl-instagram"></i>
+							<i className="bx bxl-instagram"></i>
 						</a>
 						<span></span>
 					</div>
-					<div class="bg-icon">
+					<div className="bg-icon">
 						<a
 							href="https://www.facebook.com/rascuilhr/"
 							target="_blank"
 							rel="noreferrer"
 						>
-							<i class="bx bxl-facebook"></i>
+							<i className="bx bxl-facebook"></i>
 						</a>
 						<span></span>
 					</div>
-					<div class="bg-icon">
+					<div className="bg-icon">
 						<a
 							href="https://www.linkedin.com/company/rascui"
 							target="_blank"
 							rel="noreferrer"
 						>
-							<i class="bx bxl-linkedin"></i>
+							<i className="bx bxl-linkedin"></i>
 						</a>
 						<span></span>
 					</div>
-					<div class="bg-icon">
+					<div className="bg-icon">
 						<a
 							href="https://chat.whatsapp.com/KXk9EqEww3z8qaYmBdy9DN"
 							target="_blank" rel="noreferrer"
 						>
-							<i class="bx bxl-whatsapp"></i>
+							<i className="bx bxl-whatsapp"></i>
 						</a>
 						<span></span>
 					</div>
