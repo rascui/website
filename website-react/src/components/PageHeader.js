@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import ImageLogo from '../assets/images/O-portfolio/pictures/IEEE Text-1.png';
 
-const HeaderNav = () => {
+const PageHeader = () => {
 	const [menuOpen, setMenuOpen] = useState(false);
 
 	const toggleMenu = () => {
@@ -50,4 +50,4 @@ const HeaderNav = () => {
 	);
 };
 
-export default HeaderNav;
+export default PageHeader;
