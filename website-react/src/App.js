@@ -1,5 +1,6 @@
 import './assets/css/style.css';
 import PageHeader from './components/PageHeader';
+import PageFooter from './components/PageFooter';
 import SectionHome from './components/SectionHome';
 import SectionAbout from './components/SectionAbout';
 import SectionServices from './components/SectionServices';
@@ -11,6 +12,7 @@ function App() {
       <SectionHome />
       <SectionAbout />
       <SectionServices />
+      <PageFooter />
     </div>
   );
 }
