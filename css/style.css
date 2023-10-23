@@ -799,10 +799,10 @@ button.mixitup-control-active {
   display: block;
 }
 
-.blog-box .card-top img {
-  /* width: 100%;
-  height: 366px; */
-}
+/* .blog-box .card-top img {
+  width: 100%;
+  height: 366px; 
+}  */
 
 .card:hover img {
   transform: scale(1.1);
