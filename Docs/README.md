@@ -1,6 +1,6 @@
 # [Robotics Automation Society](https://rascui.tech)
 
-## Welcome to the RAS CUI Lahore Student Chapter Homepage!
+## Welcome to the RAS CUI Lahore Student Chapter Homepage
 
 ### About Us
 
@@ -30,6 +30,6 @@ We welcome students from all backgrounds who share an interest in robotics and a
 - **Instagram:** [@ras.cui](https://www.instagram.com/ras.cui/)
 - **Others:** [links](https://go.rascui.tech)
 
-### Join Us in Shaping the Future of Robotics!
+### Join Us in Shaping the Future of Robotics
 
 RAS CUI Lahore Student Chapter is not just a society; it's a community of passionate individuals shaping the future of robotics and automation. Join us on this exciting journey, and let's build, innovate, and automate together!
