@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import ImageIEEEMascot from '../assets/images/O-portfolio/pictures/IEEE - Mascottt.png';
+import ImageIEEEMascot from '../../assets/images/O-portfolio/pictures/IEEE - Mascottt.png';
 
 const SectionHome = () => {
 	const textRef = useRef(null);

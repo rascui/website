@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import DataSectionPortfolio from '../assets/data/data-section-portfolio.json';
+import DataSectionPortfolio from '../../assets/data/data-section-portfolio.json';
 import mixitup from 'mixitup';
 
 function SectionPortfolio() {
@@ -59,7 +59,7 @@ function SectionPortfolio() {
 						</div>
 						<div className="portfolio-img">
 							<img
-								src={require(`../assets/images/O-portfolio/members/${member.image}`)}
+								src={require(`../../assets/images/O-portfolio/members/${member.image}`)}
 								alt={member.name}
 							/>
 						</div>

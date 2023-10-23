@@ -1,5 +1,5 @@
 import React from 'react';
-import DataSectionBlog from '../assets/data/data-section-blog.json';
+import DataSectionBlog from '../../assets/data/data-section-blog.json';
 import { Pagination, Autoplay } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
@@ -39,7 +39,7 @@ function SectionBlog() {
 					{DataSectionBlog.posts.map((item, index) => (
 						<SwiperSlide className="card swiper-slide" key={index}>
 							<div className="card-top">
-								<img src={require(`../assets/images/${item.image}`)} alt={item.title} />
+								<img src={require(`../../assets/images/${item.image}`)} alt={item.title} />
 							</div>
 							<div className="card-info">
 								<h2>{item.title}</h2>
@@ -54,10 +54,10 @@ function SectionBlog() {
 			<div className="swiper-pagination"></div>
 
 			<div className="showcase">
-				<img src={require(`../assets/images/shapes/ring.png`)} className="ring" />
-				<img src={require(`../assets/images/shapes/second-circle.png`)} className="second-circle" />
-				<img src={require(`../assets/images/shapes/circle.png`)} className="circle" />
-				<img src={require(`../assets/images/shapes/half-ring.png`)} className="half-ring" />
+				<img src={require(`../../assets/images/shapes/ring.png`)} className="ring" />
+				<img src={require(`../../assets/images/shapes/second-circle.png`)} className="second-circle" />
+				<img src={require(`../../assets/images/shapes/circle.png`)} className="circle" />
+				<img src={require(`../../assets/images/shapes/half-ring.png`)} className="half-ring" />
 			</div>
 		</section>
 	);

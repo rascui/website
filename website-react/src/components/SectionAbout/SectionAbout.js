@@ -1,5 +1,5 @@
 import React from 'react';
-import ImageGroupPhoto from '../assets/images/O-portfolio/pictures/group-photo.jpg';
+import ImageGroupPhoto from '../../assets/images/O-portfolio/pictures/group-photo.jpg';
 
 const SectionAbout = () => {
 	return (

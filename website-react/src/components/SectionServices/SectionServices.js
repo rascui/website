@@ -1,7 +1,7 @@
 import React from 'react';
-import ImageRing from '../assets/images/shapes/ring.png';
-import ImageCircle from '../assets/images/shapes/circle.png';
-import ImageHalfRing from '../assets/images/shapes/half-ring.png';
+import ImageRing from '../../assets/images/shapes/ring.png';
+import ImageCircle from '../../assets/images/shapes/circle.png';
+import ImageHalfRing from '../../assets/images/shapes/half-ring.png';
 
 const SectionServices = () => {
 	return (
