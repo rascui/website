@@ -1,4 +1,5 @@
 import './assets/css/style.css';
+import PageOverlay from './components/PageOverlay';
 import PageHeader from './components/PageHeader';
 import PageFooter from './components/PageFooter';
 import PageProgress from './components/PageProgress';
@@ -12,6 +13,7 @@ import SectionStats from './components/SectionStats';
 function App() {
   return (
     <div className="App">
+      <PageOverlay />
       <PageHeader />
       <SectionHome />
       <SectionAbout />
