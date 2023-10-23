@@ -69,9 +69,11 @@ nav .logo {
 
 span {
   background: var(--gradient-color-bg);
+  background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
 }
+
 
 ul.navlist {
   display: flex;
@@ -89,6 +91,7 @@ ul.navlist {
 .navlist li a:hover,
 .navlist li a.active {
   background: var(--gradient-color-bg);
+  background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
 }
@@ -200,6 +203,7 @@ section {
   -webkit-text-stroke: 0.1vw #770753;
   background: var(--gradient-color-bg);
   background-repeat: no-repeat;
+  background-clip: text;
   -webkit-background-clip: text;
   background-position: 0 0;
   transition: 0.8s;
