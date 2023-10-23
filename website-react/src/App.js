@@ -6,6 +6,7 @@ import SectionHome from './components/SectionHome';
 import SectionAbout from './components/SectionAbout';
 import SectionServices from './components/SectionServices';
 import SectionPortfolio from './components/SectionPortfolio';
+import SectionBlog from './components/SectionBlog';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <SectionAbout />
       <SectionServices />
       <SectionPortfolio />
+      <SectionBlog />
       <PageFooter />
       <PageProgress />
     </div>
