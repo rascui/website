@@ -48,56 +48,10 @@ body {
   overflow-x: hidden;
 }
 
-nav {
-  padding: 15px 8%;
-  width: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background: var(--gradient-white-bg);
-  z-index: 100;
-  transition: 0.3s;
-}
-
-nav .logo {
-  font-size: 1.7rem;
-  font-weight: 700;
-}
-
 span {
   background: var(--gradient-color-bg);
   -webkit-background-clip: text;
   color: transparent;
-}
-
-ul.navlist {
-  display: flex;
-}
-
-.navlist li {
-  margin: 0 1rem;
-}
-
-.navlist li a {
-  display: inline-flex;
-  font-weight: 600;
-}
-
-.navlist li a:hover,
-.navlist li a.active {
-  background: var(--gradient-color-bg);
-  -webkit-background-clip: text;
-  color: transparent;
-}
-
-.right-header {
-  display: flex;
-  align-items: center;
-  justify-content: end;
-  grid-gap: 0.8rem;
 }
 
 .btn {
@@ -120,40 +74,6 @@ ul.navlist {
   );
   color: white;
   transition: 0.8;
-}
-
-.menu-icon {
-  position: relative;
-  display: block;
-  width: 30px;
-  height: 30px;
-  cursor: pointer;
-  /* background: blue; */
-}
-
-.menu-icon .bar,
-.menu-icon::after,
-.menu-icon::before {
-  content: "";
-  display: none;
-  width: 100%;
-  height: 4px;
-  border-radius: 3px;
-  background: #000;
-  margin: 6px 0;
-  transition: 0.4s;
-}
-
-.menu-icon.active::before {
-  transform: rotate(-45deg) translate(-6px, 6px);
-}
-
-.menu-icon.active::after {
-  transform: rotate(45deg) translate(-8px, -8px);
-}
-
-.menu-icon.active .bar {
-  opacity: 0;
 }
 
 /* ==================== home section css code ============================ */
@@ -306,11 +226,6 @@ p {
   position: relative;
   animation: floatImage 4s ease-in-out infinite;
   animation-delay: 3s;
-}
-
-.ieee-text {
-  width: 60px;
-  height: 32px;
 }
 
 .img-hero img {
@@ -1118,29 +1033,6 @@ h2.counter span {
 @media (max-width: 768px) {
   .proposal {
     display: none;
-  }
-  .menu-icon .bar,
-  .menu-icon::after,
-  .menu-icon::before {
-    display: block;
-  }
-  ul.navlist {
-    position: absolute;
-    top: -1000px;
-    transition: all 0.3s ease;
-    width: 100%;
-    text-align: center;
-    display: block;
-    background: var(--gradient-white-bg);
-    left: 0;
-    border-top: 2px solid rgba(248, 202, 202, 0.7);
-  }
-  ul.navlist a {
-    font-size: 1.5rem;
-    margin: 1rem 0;
-  }
-  .navlist.active {
-    top: 100%;
   }
   .btn {
     padding: 10px;
