@@ -81,217 +81,8 @@ section {
   padding: 90px 8%;
 }
 
-.home {
-  min-height: 100vh;
-  height: 100%;
-  width: 100%;
-  display: flex;
-  grid-template-columns: repeat(2, 1fr);
-  align-items: center;
-  grid-gap: 4em;
-  background: var(--gradient-white-bg2);
-}
-
-.hero-info {
-  margin-top: 3rem;
-}
-
-.hero-info h3 {
-  color: var(--font-color);
-  font-weight: 300;
-  text-transform: uppercase;
-  font-size: 1.1rem;
-}
-
-.hero-info h1 {
-  font-size: 3.5rem;
-}
-
-.text-animate {
-  width: 22.8rem;
-  position: relative;
-}
-
-.text-animate h2 {
-  font-size: 2rem;
-  font-weight: 700;
-  margin-bottom: 1rem;
-  color: transparent;
-  -webkit-text-stroke: 0.1vw #770753;
-  background: var(--gradient-color-bg);
-  background-repeat: no-repeat;
-  -webkit-background-clip: text;
-  background-position: 0 0;
-  transition: 0.8s;
-  letter-spacing: 2px;
-  animation: moveText 3s linear infinite;
-  animation-delay: 2s;
-}
-
-.text-animate h2::before {
-  content: "";
-  position: absolute;
-  top: 7px;
-  left: -3px;
-  width: 0;
-  height: 70%;
-  border-right: 2px solid var(--main-color);
-  animation: moveCursorText 3s linear infinite;
-  animation-delay: 2s;
-}
-
-.hero-info p {
-  font-size: 0.9rem;
-  color: var(--font-color);
-  line-height: 1.5rem;
-}
-
-.btn-box {
-  display: flex;
-  justify-content: space-between;
-  width: 320px;
-  margin-top: 2rem;
-  margin-bottom: 6rem;
-}
-
-.btn-box .btn {
-  padding: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 8px;
-}
-
-.btn-box .d-CV {
-  background: var(--gradient-white-bg2);
-  padding: 10px;
-  border-radius: 5px;
-  font-weight: 500;
-  color: #000;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 6px 12px rgba(0, 0, 0, 0.1);
-
-  transition: all 0.3s ease;
-}
-
-.social-media {
-  display: flex;
-  justify-content: space-between;
-  width: 220px;
-  height: 45px;
-}
-
-.social-media a {
-  width: 42px;
-  height: 42px;
-  font-size: 1.5rem;
-  color: var(--main-color);
-  background: #fff;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  transition: 0.4s;
-  border-radius: 50%;
-  z-index: 1;
-}
-
 p {
   justify-content: center;
-}
-
-.social-media a:hover {
-  background: var(--gradient-color-bg);
-  color: #fff;
-}
-
-.bg-icon {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.bg-icon span {
-  position: absolute;
-  width: 50px;
-  height: 50px;
-  background: var(--gradient-color-bg);
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  animation: animate 1s linear infinite;
-}
-
-.img-hero {
-  position: relative;
-  animation: floatImage 4s ease-in-out infinite;
-  animation-delay: 3s;
-}
-
-.img-hero img {
-  position: relative;
-  width: 350px;
-  height: 470px;
-  margin-left: 30px;
-  z-index: 10;
-}
-
-.rotate-text {
-  position: absolute;
-  top: 4%;
-  left: -53px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-  padding: 2rem;
-}
-
-.rotate-text span {
-  position: relative;
-  width: 442px;
-  height: 442px;
-  background: red;
-  border: 6px solid #eaeef0;
-  border-radius: 50%;
-  z-index: 1;
-  overflow: hidden;
-}
-
-.rotate-text span::before {
-  content: "";
-  position: absolute;
-  inset: 20px;
-  background: #00aaff;
-  border-radius: 50%;
-  z-index: 1;
-}
-
-.rotate-text span i {
-  position: absolute;
-  inset: 0;
-  background: var(--gradient-color-bg);
-  filter: blur(5px);
-  animation: animate 2s linear infinite;
-}
-
-.rotate-text .text {
-  position: absolute;
-  width: 490px;
-  height: 490px;
-  background: #f2f6fb;
-  border-radius: 50%;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 6px 12px rgba(0, 0, 0, 0.1);
-  animation: rotateText 30s linear infinite;
-}
-
-.text b {
-  position: absolute;
-  transform-origin: 0 247px;
-  display: block;
-  top: 0;
-  left: 50%;
-  font-size: 1.2rem;
 }
 
 /* ==================== About section css code ============================ */
@@ -698,39 +489,6 @@ h2.counter span {
 
 /*======================= @keyframes ============================ */
 
-@keyframes moveText {
-  0%,
-  10%,
-  100% {
-    background-position: -24rem 0;
-  }
-
-  65%,
-  85% {
-    background-position: 0rem 0;
-  }
-}
-
-@keyframes moveCursorText {
-  0%,
-  10%,
-  100% {
-    width: 0;
-  }
-
-  65%,
-  78%,
-  85% {
-    width: 60%;
-    opacity: 1;
-  }
-
-  75%,
-  85% {
-    opacity: 0;
-  }
-}
-
 @keyframes animate {
   0% {
     transform: rotate(0deg);
@@ -740,30 +498,9 @@ h2.counter span {
   }
 }
 
-@keyframes rotateText {
-  0% {
-    transform: rotate(360deg);
-  }
-  100% {
-    transform: rotate(0deg);
-  }
-}
-
 @keyframes progress {
   to {
     stroke-dashoffset: var(--target);
-  }
-}
-
-@keyframes floatImage {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-22px);
-  }
-  100% {
-    transform: translateY(0);
   }
 }
 
@@ -776,7 +513,6 @@ h2.counter span {
 }
 
 @media (max-width: 991px) {
-  .home,
   .portfolio-box {
     flex-direction: column-reverse;
   }
@@ -793,9 +529,6 @@ h2.counter span {
   .portfolio-gallery {
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   }
-  .img-hero {
-    margin-top: 3rem;
-  }
 }
 
 @media (max-width: 768px) {
@@ -804,9 +537,6 @@ h2.counter span {
   }
   .btn {
     padding: 10px;
-  }
-  .home {
-    grid-gap: 0;
   }
   .fillter-buttons button {
     padding: 10px;
@@ -828,20 +558,7 @@ h2.counter span {
   .input-box input {
     width: 100%;
   }
-  .rotate-text {
-    display: none;
-  }
-  .img-hero img {
-    width: 80%;
-    object-fit: contain;
-  }
-  .text-animate {
-    width: 23.8rem;
-  }
-  .btn-box {
-    width: 266px;
-    margin-bottom: 3rem;
-  }
+
   .fillter-buttons {
     display: grid;
     grid-gap: 1rem;
