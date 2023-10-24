@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	list-style: none;
+	scroll-behavior: smooth;
+}
+
+:root {
+	--bg-color: #e3edf7;
+	--gradient-white-bg: linear-gradient(
+		0deg,
+		#fff 0%,
+		#edf4fa 51%,
+		#e5eef7 100%
+	);
+	--gradient-color-bg: linear-gradient(
+		180deg,
+		rgba(247, 1, 120, 1) 0%,
+		rgba(160, 8, 156, 1) 51%,
+		rgba(99, 13, 178, 1) 100%
+	);
+	--main-color: #e6006d;
+	--font-color: #90979f;
+	--hover-box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+		rgba(0, 0, 0, 0.23) 0px 6px 6px;
+	--gradient-white-bg2: linear-gradient(98deg, #e5eef7 0%, #fff 100%);
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+body {
+	font-family: "Poppins", sans-serif;
+	background: var(--bg-color);
+	overflow-x: hidden;
+}
+
+span {
+	background: var(--gradient-color-bg);
+	-webkit-background-clip: text;
+	color: transparent;
+}
+
+.btn {
+	background: var(--gradient-color-bg);
+	color: #fff;
+	padding: 8px 10px;
+	border-radius: 5px;
+	font-weight: 500;
+	transition: all 0.3s ease;
+}
+
+.btn:hover,
+.btn-box .d-CV:hover {
+	box-shadow: var(--hover-box-shadow);
+	background: linear-gradient(
+		180deg,
+		rgba(247, 1, 120, 1) 0%,
+		rgba(160, 8, 156, 1) 51%,
+		rgba(99, 13, 178, 1) 100%
+	);
+	color: white;
+	transition: 0.8;
+}
+
+section {
+	padding: 90px 8%;
+}
+
+p {
+	justify-content: center;
+}
+
+.text-box {
+	margin: 0.8rem 0;
+}
+
+.text-box p {
+	font-size: 1.1rem;
+	font-weight: 500;
+}
+
+.main-text {
+	width: 100%;
+	text-align: center;
+	margin-bottom: 2rem;
+}
+
+.main-text .heading {
+	color: var(--main-color);
+}
+
+.main-text span {
+	color: var(--font-color);
+	font-weight: 200;
+	text-transform: uppercase;
+}
+
+/*======================= @keyframes ============================ */
+
+@keyframes animate {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+/*======================= BrakPoints ============================ */
+
+@media (max-width: 1200px) {
+	html {
+		font-size: 95%;
+	}
+}
+
+@media (max-width: 768px) {
+	.btn {
+		padding: 10px;
+	}
+}
+
+@media (max-width: 530px) {
+	html {
+		font-size: 80%;
+	}
+	section {
+		padding: 0;
+		margin: 50px 3%;
+	}
+}

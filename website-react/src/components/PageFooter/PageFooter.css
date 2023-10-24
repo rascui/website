@@ -1,0 +1,13 @@
+footer {
+	text-align: center;
+	margin: 0 8%;
+	padding: 2rem 0;
+	border-top: 2px solid #e8e1e1;
+}
+
+@media (max-width: 991px) {
+	footer {
+		padding-left: 3%;
+		padding-right: 3%;
+	}
+}
