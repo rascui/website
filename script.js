@@ -158,7 +158,7 @@ window.onload = calcScrollValue;
 
 // active menu 
 
-let menuLi = document.querySelectorAll("header ul li a");
+let menuLi = document.querySelectorAll("nav ul li a");
 let section = document.querySelectorAll('section');
 
 function activeMenu(){
