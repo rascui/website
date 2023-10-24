@@ -295,115 +295,14 @@ p {
 }
 
 /* ==================== About section css code ============================ */
-.about {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 1rem;
-}
 
-.about .about-img {
-  position: relative;
-}
-
-.about .about-img .aboutHero {
-  width: 40vw;
-  height: auto;
-}
-
-.about-img .ring {
-  position: absolute;
-  top: 22%;
-  right: 1%;
-}
-
-.about-img .circle {
-  position: absolute;
-  top: 0%;
-  left: 0%;
-}
-
-.about-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 1;
-  overflow: hidden;
-}
-
-.text-content {
-  flex: 0 0 47%;
-  padding: 20px;
-  text-align: justify;
-}
-
-.image-content {
-  flex: 0 0 53%;
-}
-
-.image-content img {
-  width: 100%;
-  height: auto;
-}
-
-.about-content h2 {
-  color: var(--main-color);
-}
-
-.about-content h3 {
-  font-size: 2.1rem;
-  line-height: 3rem;
-  margin: 0.5rem 0;
-}
-
-.about-content p {
-  color: var(--font-color);
+.text-box {
+	margin: 0.8rem 0;
 }
 
 .text-box p {
-  font-size: 1.1rem;
-  font-weight: 500;
-}
-
-.about-btn {
-  margin: 0.8rem 0;
-}
-
-.about-btn button,
-.cvContent a {
-  background: var(--gradient-white-bg2);
-  padding: 10px 20px;
-  border-radius: 5px;
-  border: none;
-  font-size: 1rem;
-  font-weight: 500;
-  color: #000;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 6px 12px rgba(0, 0, 0, 0.1);
-
-  margin-right: 0.5rem;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-.about-btn button.active {
-  background: var(--gradient-color-bg);
-  color: #ffff;
-}
-
-.text-box {
-  margin: 0.8rem 0;
-}
-
-.content-btn > .content:not(:first-child) {
-  display: none;
-}
-
-.about-btn button:hover {
-  box-shadow: var(--hover-box-shadow);
-}
-
-.cvContent {
-  margin-top: 2.5rem;
+	font-size: 1.1rem;
+	font-weight: 500;
 }
 
 /* ==================== Services section css code ============================ */
@@ -1008,12 +907,8 @@ h2.counter span {
   .portfolio-box {
     flex-direction: column-reverse;
   }
-  .about,
   .contactSkills {
     flex-direction: column;
-  }
-  .about .about-img .aboutHero {
-    width: 100%;
   }
   .proposal img {
     width: 52vw;
@@ -1044,19 +939,6 @@ h2.counter span {
     padding: 10px;
     font-size: 0.8rem;
   }
-  .about-content {
-    flex-direction: column;
-  }
-  .about {
-    padding: 2rem 0;
-  }
-  .text-content {
-    padding: 0 2rem;
-    margin-bottom: 2rem;
-  }
-  .text-content > p {
-    width: 100%;
-  }
 }
 
 @media (max-width: 530px) {
@@ -1086,9 +968,6 @@ h2.counter span {
   .btn-box {
     width: 266px;
     margin-bottom: 3rem;
-  }
-  .about-btn button {
-    padding: 10px 15px;
   }
   .fillter-buttons {
     display: grid;
