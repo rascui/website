@@ -1,4 +1,5 @@
 import React from 'react';
+import './PageFooter.css';
 
 const PageFooter = () => {
 	return (

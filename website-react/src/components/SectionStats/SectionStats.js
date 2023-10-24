@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import './SectionStats.css';
 
 const SectionStats = () => {
 	const [skillsPlayed, setSkillsPlayed] = useState(false);

@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import './SectionPortfolio.css';
 import DataSectionPortfolio from '../../assets/data/data-section-portfolio.json';
 import mixitup from 'mixitup';
 

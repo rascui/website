@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from 'react';
+import './SectionHome.css';
 import ImageIEEEMascot from '../../assets/images/O-portfolio/pictures/IEEE - Mascottt.png';
 
 const SectionHome = () => {

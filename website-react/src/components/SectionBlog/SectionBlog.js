@@ -1,4 +1,5 @@
 import React from 'react';
+import './SectionBlog.css';
 import DataSectionBlog from '../../assets/data/data-section-blog.json';
 import { Pagination, Autoplay } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';

@@ -1,4 +1,5 @@
 import React from 'react';
+import './SectionAbout.css';
 import ImageGroupPhoto from '../../assets/images/O-portfolio/pictures/group-photo.jpg';
 
 const SectionAbout = () => {

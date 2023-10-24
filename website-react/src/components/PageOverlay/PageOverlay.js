@@ -1,4 +1,5 @@
 import React from 'react';
+import './PageOverlay.css';
 
 function PageOverlay() {
 	return (
