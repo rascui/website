@@ -74,6 +74,7 @@ span {
   color: transparent;
 }
 
+
 ul.navlist {
   display: flex;
 }
@@ -90,7 +91,6 @@ ul.navlist {
 .navlist li a:hover,
 .navlist li a.active {
   background: var(--gradient-color-bg);
-  background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
 }
@@ -202,7 +202,6 @@ section {
   -webkit-text-stroke: 0.1vw #770753;
   background: var(--gradient-color-bg);
   background-repeat: no-repeat;
-  background-clip: text;
   -webkit-background-clip: text;
   background-position: 0 0;
   transition: 0.8s;
@@ -753,11 +752,11 @@ button.mixitup-control-active {
   margin: 0.5rem 0 1rem 0;
 }
 
-.image-icon {
+.image-icon{
   display: inline-block;
   text-decoration: none;
 }
-.image-icon img {
+.image-icon img{
   width: 50px;
   height: auto;
   overflow: hidden;
@@ -799,10 +798,11 @@ button.mixitup-control-active {
   display: block;
 }
 
-/* .blog-box .card-top img {
-  width: 100%;
-  height: 366px; 
-}  */
+.blog-box .card-top img{
+  /* width: 100%;
+  height: 366px; */
+  
+}
 
 .card:hover img {
   transform: scale(1.1);
