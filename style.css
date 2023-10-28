@@ -517,6 +517,8 @@ p {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, auto));
   align-items: center;
+  align-content: stretch;
+  height: fit-content;
   gap: 2rem;
   position: relative;
   z-index: 1;
@@ -524,11 +526,11 @@ p {
 
 .servicesItem {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 6px 12px rgba(0, 0, 0, 0.1);
-
   padding: 2rem 1rem;
   border-radius: 10px;
   background: var(--gradient-white-bg2);
   text-align: center;
+  height: 100%;        /*added this line to make the height of every grid is 100%*/
 }
 
 .icon-services {
