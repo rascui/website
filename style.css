@@ -124,7 +124,7 @@ ul.navlist {
 
 .menu-icon {
   position: relative;
-  display: block;
+  display: none;
   width: 30px;
   height: 30px;
   cursor: pointer;
@@ -1178,6 +1178,9 @@ footer {
 @media (max-width: 768px) {
   .proposal {
     display: none;
+  }
+  .menu-icon {
+    display: block;
   }
   .menu-icon .bar,
   .menu-icon::after,
