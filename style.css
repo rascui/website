@@ -48,6 +48,10 @@ body {
   overflow-x: hidden;
 }
 
+section{
+  overflow-x: hidden;
+}
+
 nav {
   padding: 15px 8%;
   width: 100%;
