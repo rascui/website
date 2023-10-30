@@ -10,18 +10,14 @@
 
 :root {
   --bg-color: #e3edf7;
-  --gradient-white-bg: linear-gradient(
-    0deg,
-    #fff 0%,
-    #edf4fa 51%,
-    #e5eef7 100%
-  );
-  --gradient-color-bg: linear-gradient(
-    180deg,
-    rgba(247, 1, 120, 1) 0%,
-    rgba(160, 8, 156, 1) 51%,
-    rgba(99, 13, 178, 1) 100%
-  );
+  --gradient-white-bg: linear-gradient(0deg,
+      #fff 0%,
+      #edf4fa 51%,
+      #e5eef7 100%);
+  --gradient-color-bg: linear-gradient(180deg,
+      rgba(247, 1, 120, 1) 0%,
+      rgba(160, 8, 156, 1) 51%,
+      rgba(99, 13, 178, 1) 100%);
   --main-color: #e6006d;
   --font-color: #90979f;
   --hover-box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
@@ -48,7 +44,7 @@ body {
   overflow-x: hidden;
 }
 
-section{
+section {
   overflow-x: hidden;
 }
 
@@ -116,12 +112,10 @@ ul.navlist {
 .btn:hover,
 .btn-box .d-CV:hover {
   box-shadow: var(--hover-box-shadow);
-  background: linear-gradient(
-    180deg,
-    rgba(247, 1, 120, 1) 0%,
-    rgba(160, 8, 156, 1) 51%,
-    rgba(99, 13, 178, 1) 100%
-  );
+  background: linear-gradient(180deg,
+      rgba(247, 1, 120, 1) 0%,
+      rgba(160, 8, 156, 1) 51%,
+      rgba(99, 13, 178, 1) 100%);
   color: white;
   transition: 0.8;
 }
@@ -483,7 +477,7 @@ p {
   margin: 0.8rem 0;
 }
 
-.content-btn > .content:not(:first-child) {
+.content-btn>.content:not(:first-child) {
   display: none;
 }
 
@@ -534,7 +528,8 @@ p {
   border-radius: 10px;
   background: var(--gradient-white-bg2);
   text-align: center;
-  height: 100%;        /*added this line to make the height of every grid is 100%*/
+  height: 100%;
+  /*added this line to make the height of every grid is 100%*/
 }
 
 .icon-services {
@@ -588,7 +583,6 @@ p {
 .readMore {
   background: var(--gradient-white-bg2);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 6px 12px rgba(0, 0, 0, 0.1);
-
   padding: 10px 20px;
   border-radius: 5px;
   font-size: 1rem;
@@ -716,7 +710,6 @@ button.mixitup-control-active {
   border-radius: 5px;
   overflow: hidden;
   position: relative;
-  height: 23.04vh;
   transition: 0.3s;
   object-fit: cover;
 }
@@ -786,7 +779,6 @@ button.mixitup-control-active {
 }
 
 
-
 /* ==================== Blog section css code ============================ */
 
 .blog-box {
@@ -823,10 +815,10 @@ button.mixitup-control-active {
   display: block;
 }
 
-.blog-box .card-top img{
+.blog-box .card-top img {
   /* width: 100%;
   height: 366px; */
-  
+
 }
 
 .card:hover img {
@@ -1072,6 +1064,7 @@ footer {
 /*======================= @keyframes ============================ */
 
 @keyframes moveText {
+
   0%,
   10%,
   100% {
@@ -1085,6 +1078,7 @@ footer {
 }
 
 @keyframes moveCursorText {
+
   0%,
   10%,
   100% {
@@ -1108,6 +1102,7 @@ footer {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
@@ -1117,6 +1112,7 @@ footer {
   0% {
     transform: rotate(360deg);
   }
+
   100% {
     transform: rotate(0deg);
   }
@@ -1132,9 +1128,11 @@ footer {
   0% {
     transform: translateY(0);
   }
+
   50% {
     transform: translateY(-22px);
   }
+
   100% {
     transform: translateY(0);
   }
@@ -1153,27 +1151,34 @@ footer {
     padding-left: 3%;
     padding-right: 3%;
   }
+
   .home,
   .portfolio-box {
     flex-direction: column-reverse;
   }
+
   .about,
   .contactSkills {
     flex-direction: column;
   }
+
   .about .about-img .aboutHero {
     width: 100%;
   }
+
   .proposal img {
     width: 52vw;
   }
+
   .portfolio-img img {
     width: 100%;
     height: 100%;
   }
+
   .portfolio-gallery {
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   }
+
   .img-hero {
     margin-top: 3rem;
   }
@@ -1183,14 +1188,17 @@ footer {
   .proposal {
     display: none;
   }
+
   .menu-icon {
     display: block;
   }
+
   .menu-icon .bar,
   .menu-icon::after,
   .menu-icon::before {
     display: block;
   }
+
   ul.navlist {
     position: absolute;
     top: -1000px;
@@ -1202,13 +1210,16 @@ footer {
     left: 0;
     border-top: 2px solid rgba(248, 202, 202, 0.7);
   }
+
   ul.navlist a {
     font-size: 1.5rem;
     margin: 1rem 0;
   }
+
   .navlist.active {
     top: 100%;
   }
+
   .overlay {
     width: 100vw;
     height: 100vh;
@@ -1221,31 +1232,39 @@ footer {
     transform: 0.3s;
     pointer-events: none;
   }
+
   body.open .overlay {
     opacity: 1;
     pointer-events: auto;
   }
+
   .btn {
     padding: 10px;
   }
+
   .home {
     grid-gap: 0;
   }
+
   .fillter-buttons button {
     padding: 10px;
     font-size: 0.8rem;
   }
+
   .about-content {
     flex-direction: column;
   }
+
   .about {
     padding: 2rem 0;
   }
+
   .text-content {
     padding: 0 2rem;
     margin-bottom: 2rem;
   }
-  .text-content > p {
+
+  .text-content>p {
     width: 100%;
   }
 }
@@ -1254,37 +1273,47 @@ footer {
   html {
     font-size: 80%;
   }
+
   section {
     padding: 0;
     margin: 50px 3%;
   }
+
   .contact-info form .input-box {
     display: block;
   }
+
   .input-box input {
     width: 100%;
   }
+
   .rotate-text {
     display: none;
   }
+
   .img-hero img {
     width: 80%;
     object-fit: contain;
   }
+
   .text-animate {
     width: 23.8rem;
   }
+
   .btn-box {
     width: 266px;
     margin-bottom: 3rem;
   }
+
   .about-btn button {
     padding: 10px 15px;
   }
+
   .fillter-buttons {
     display: grid;
     grid-gap: 1rem;
   }
+
   .fillter-buttons button {
     width: 100%;
     padding: 13px;
