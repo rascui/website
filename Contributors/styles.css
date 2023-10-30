@@ -41,6 +41,7 @@ section.contributor-container div.contributor-inner-container {
   grid-template-rows: 13rem;
   justify-content: space-between;
   row-gap: 1rem;
+  padding: 15px;
 }
 
 section.contributor-container div.contributor-inner-container a.contributor {
