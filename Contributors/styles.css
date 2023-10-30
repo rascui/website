@@ -5,7 +5,6 @@ section.contributor-heading {
   align-items: center;
   padding: 0;
   margin: 6rem 0 2rem 0;
-  
 }
 
 section.contributor-heading div {
@@ -14,7 +13,6 @@ section.contributor-heading div {
   align-items: center;
   flex-direction: column;
   margin: 2rem 0;
-  
 }
 
 section.contributor-heading div h1 {
@@ -34,9 +32,6 @@ section.contributor-container {
   padding: 0;
   margin: 0;
   margin-bottom: 5rem;
-  padding-bottom: 1rem;
-  padding-top: 1rem;
-  
 }
 
 section.contributor-container div.contributor-inner-container {
