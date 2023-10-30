@@ -1258,6 +1258,10 @@ footer {
     padding: 0;
     margin: 50px 3%;
   }
+  .home{
+    margin: 50px 0;
+    padding: 15px;
+  }
   .contact-info form .input-box {
     display: block;
   }
