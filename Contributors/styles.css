@@ -29,7 +29,7 @@ section.contributor-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0;
+  padding: 1rem;
   margin: 0;
   margin-bottom: 5rem;
 }
