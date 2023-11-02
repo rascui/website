@@ -160,12 +160,20 @@ window.onload = calcScrollValue;
 
 let menuLi = document.querySelectorAll("nav ul li a");
 let section = document.querySelectorAll('section');
+// add "our stats" navlist item to add active class to it
+let navStats = document.querySelectorAll("nav ul li a[href='#contact']");
 
 function activeMenu(){
+    let bodyHeight = document.body.offsetHeight;
     let len = section.length;
     while(--len && window.scrollY + 97 < section[len].offsetTop){}
     menuLi.forEach(sec => sec.classList.remove("active"));
     menuLi[len].classList.add("active");
+    // if scroll reaches bottom, add active class to "our stats"
+    if (pageYOffset + window.innerHeight >= bodyHeight) {
+        menuLi.forEach(sec => sec.classList.remove("active"));
+        navStats[0].classList.add("active");
+    }
 }
 activeMenu();
 window.addEventListener("scroll",activeMenu);
