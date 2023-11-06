@@ -208,7 +208,7 @@ section {
   background-position: 0 0;
   transition: 0.8s;
   letter-spacing: 2px;
-  animation: moveText 3s linear infinite;
+  animation: moveText 3s steps(9) infinite;
   animation-delay: 2s;
 }
 
@@ -220,7 +220,7 @@ section {
   width: 0;
   height: 70%;
   border-right: 2px solid var(--main-color);
-  animation: moveCursorText 3s linear infinite;
+  animation: moveCursorText 3s steps(9) infinite;
   animation-delay: 2s;
 }
 
