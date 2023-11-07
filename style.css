@@ -208,7 +208,7 @@ section {
   background-position: 0 0;
   transition: 0.8s;
   letter-spacing: 2px;
-  animation: moveText 3s linear infinite;
+  animation: moveText 3s steps(9) infinite;
   animation-delay: 2s;
 }
 
@@ -220,7 +220,7 @@ section {
   width: 0;
   height: 70%;
   border-right: 2px solid var(--main-color);
-  animation: moveCursorText 3s linear infinite;
+  animation: moveCursorText 3s steps(9) infinite;
   animation-delay: 2s;
 }
 
@@ -1074,12 +1074,13 @@ footer {
   0%,
   10%,
   100% {
-    background-position: -24rem 0;
+    background-position: -23rem 0;
   }
 
   65%,
+  75%,
   85% {
-    background-position: 0rem 0;
+    background-position: -13rem 0;
   }
 }
 
@@ -1091,9 +1092,9 @@ footer {
   }
 
   65%,
-  78%,
+  75%,
   85% {
-    width: 60%;
+    width: 43%;
     opacity: 1;
   }
 
