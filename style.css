@@ -889,6 +889,22 @@ button.mixitup-control-active {
   filter: blur(1px);
 }
 
+/* ==================== Events section css code ============================ */
+
+#prev-button, #next-button {
+  color: var(--main-color);
+  background-color: transparent;
+  border: none;
+}
+
+#prev-button {
+  margin-left: 3%;
+}
+
+#next-button {
+  margin-right: 3%;
+}
+
 /* ==================== Contact section css code ============================ */
 
 .contactSkills {
@@ -1247,6 +1263,9 @@ footer {
   }
   .text-content > p {
     width: 100%;
+  }
+  #prev-button, #next-button {
+    display: none;
   }
 }
 

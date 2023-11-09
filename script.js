@@ -78,6 +78,16 @@ var swiper = new Swiper(".mySwiper", {
     }
   });
 
+// Swiper buttons
+
+document.getElementById("prev-button").addEventListener("click", function () {
+    swiper.slidePrev();
+});
+
+document.getElementById("next-button").addEventListener("click", function () {
+    swiper.slideNext();
+});
+
 
 
 //   skill Progress bar 
