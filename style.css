@@ -48,7 +48,7 @@ body {
   overflow-x: hidden;
 }
 
-section{
+section {
   overflow-x: hidden;
 }
 
@@ -534,7 +534,7 @@ p {
   border-radius: 10px;
   background: var(--gradient-white-bg2);
   text-align: center;
-  height: 100%;        /*added this line to make the height of every grid is 100%*/
+  height: 100%; /*added this line to make the height of every grid is 100%*/
 }
 
 .icon-services {
@@ -784,8 +784,6 @@ button.mixitup-control-active {
   transform: scale(1.1);
 }
 
-
-
 /* ==================== Blog section css code ============================ */
 
 .blog-box {
@@ -822,10 +820,9 @@ button.mixitup-control-active {
   display: block;
 }
 
-.blog-box .card-top img{
+.blog-box .card-top img {
   /* width: 100%;
   height: 366px; */
-  
 }
 
 .card:hover img {
@@ -858,7 +855,7 @@ button.mixitup-control-active {
 
 .swiper-pagination-bullet {
   height: 10px !important;
-  width: 30px !important;
+  width: 10px !important;
   border-radius: 25px !important;
   background: var(--gradient-color-bg) !important;
 }
@@ -891,7 +888,8 @@ button.mixitup-control-active {
 
 /* ==================== Events section css code ============================ */
 
-#prev-button, #next-button {
+#prev-button,
+#next-button {
   color: var(--main-color);
   background-color: transparent;
   border: none;
@@ -1264,7 +1262,8 @@ footer {
   .text-content > p {
     width: 100%;
   }
-  #prev-button, #next-button {
+  #prev-button,
+  #next-button {
     display: none;
   }
 }
@@ -1277,7 +1276,7 @@ footer {
     padding: 0;
     margin: 50px 3%;
   }
-  .home{
+  .home {
     margin: 50px 0;
     padding: 15px;
   }
