@@ -72,7 +72,8 @@ Depending on how large the project is, you may want to outsource the questioning
 >
 > ## Issues
 >
-> Do not wait for the admins to `assign an issue`. Just start working on whatever issue you like and submit your Pull Request. The admins will approach you once your have submitted your Pull Requst.
+> If you want to work on some issue, just ask for assigning the issue in comments and perhaps share a little details on how you plan to approach the said problem for assigning it to you. Wait for the admins to `assign an issue`. Once assigned, you will be given 36 hours to send Pull Request. The admins will approach you, after you have submitted Pull Request.
+> But, if you overtimed, the issue will be assigned to the next one whose request is there, in list.
 
 ### Reporting Bugs
 
