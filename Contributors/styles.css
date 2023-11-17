@@ -1,0 +1,129 @@
+section.contributor-heading {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 6rem 0 2rem 0;
+}
+
+section.contributor-heading div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 2rem 0;
+}
+
+section.contributor-heading div h1 {
+  color: #d42f6d;
+  text-transform: uppercase;
+}
+
+section.contributor-heading div p {
+  color: #9f9cab;
+}
+
+section.contributor-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  margin: 0;
+  margin-bottom: 5rem;
+}
+
+section.contributor-container div.contributor-inner-container {
+  width: 85%;
+  display: grid;
+  grid-template-columns: repeat(5, 18%);
+  grid-template-rows: 13rem;
+  justify-content: space-between;
+  row-gap: 1rem;
+}
+
+section.contributor-container div.contributor-inner-container a.contributor {
+  width: 100%;
+  height: 13rem;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px 2px #00000040;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  transition: all 0.25s ease;
+}
+
+section.contributor-container
+  div.contributor-inner-container
+  a.contributor:hover {
+  transform: scale(1.02);
+}
+
+section.contributor-container
+  div.contributor-inner-container
+  a.contributor
+  div.contributor-image-container
+  img {
+  width: calc(6rem - 10px);
+  height: calc(6rem - 10px);
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.contributor-image-container {
+  background: linear-gradient(180deg, #d13180 0%, #6224a7 100%);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 6rem;
+  height: 6rem;
+  overflow: hidden;
+  margin: 1rem 0;
+}
+
+.github-id {
+  font-weight: bold;
+}
+
+.member-check {
+  color: #505050;
+  font-size: 0.75rem;
+}
+
+.contributions-count {
+  font-size: 0.75rem;
+  color: #d42f6d;
+  font-weight: bold;
+  justify-self: flex-end;
+}
+
+/* responsive design here */
+
+@media screen and (max-width: 950px) {
+  section.contributor-container div.contributor-inner-container {
+    grid-template-columns: repeat(4, 22%);
+  }
+}
+
+@media screen and (max-width: 825px) {
+  section.contributor-container div.contributor-inner-container {
+    grid-template-columns: repeat(3, 31%);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  section.contributor-container div.contributor-inner-container {
+    grid-template-columns: repeat(2, 47%);
+  }
+}
+
+@media screen and (max-width: 325px) {
+  section.contributor-container div.contributor-inner-container {
+    grid-template-columns: repeat(1, 98%);
+  }
+}
