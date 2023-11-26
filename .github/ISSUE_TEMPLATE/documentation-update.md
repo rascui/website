@@ -2,7 +2,6 @@
 name: Documentation Update
 about: Describe your changes in the documentation
 title: "[DOC]"
-labels: hacktoberfest accepted
 assignees: ''
 
 ---
