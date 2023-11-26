@@ -2,7 +2,6 @@
 name: Bug Issue
 about: Create a report to help us improve
 title: "[BUG]: <bug-title>"
-labels: hacktoberfest accepted
 assignees: ''
 
 ---
