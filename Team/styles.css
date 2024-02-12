@@ -1,0 +1,191 @@
+section.team-heading {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 6rem 0 2rem 0;
+}
+
+section.team-heading div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 2rem 0;
+}
+
+section.team-heading div h1 {
+  color: #d42f6d;
+  text-transform: uppercase;
+}
+
+section.team-heading div p {
+  color: #9f9cab;
+}
+
+.contributor-image-container {
+  background: linear-gradient(180deg, #d13180 0%, #6224a7 100%);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 6rem;
+  height: 6rem;
+  overflow: hidden;
+  margin: 1rem 0;
+}
+
+.github-id {
+  font-weight: bold;
+}
+
+.member-check {
+  color: #505050;
+  font-size: 0.75rem;
+}
+
+.contributions-count {
+  font-size: 0.75rem;
+  color: #d42f6d;
+  font-weight: bold;
+  justify-self: flex-end;
+}
+
+.team-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+
+.team-inner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.team-chief-and-title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: flex-start;
+  margin: 2rem;
+}
+
+.team-chief-and-title-container > img {
+  background: linear-gradient(180deg, #d13180 0%, #6224a7 100%);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: cover;
+  width: 10rem;
+  height: 10rem;
+  overflow: hidden;
+}
+
+.team-chief-and-title-container > div {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-left: 1rem;
+}
+
+.chief {
+  background-image: linear-gradient(180deg, #d13180 0%, #6224a7 100%);
+  background-clip: text;
+  color: transparent;
+}
+
+.heads-and-description-container {
+  width: 100%;
+  height: 25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heads-container {
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  width: 35%;
+  margin: 2rem;
+}
+
+.heads-container > h1 {
+  align-self: flex-start;
+  margin-bottom: 1rem;
+}
+
+.heads-container > div {
+  display: grid;
+  grid-template-columns: repeat(3, 33.33%);
+  row-gap: 1rem;
+  width: 100%;
+}
+
+.heads-container > div > div {
+  position: relative;
+  width: 6rem;
+  height: 6rem;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.heads-container > div > div > div {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, #d13180 0%, #6224a7 100%);
+  border-radius: 100%;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  text-align: center;
+  transition: all 0.25s ease;
+}
+
+.heads-container > div > div:hover .head-name {
+  top: 0;
+}
+
+.heads-container > div > div > img {
+  width: 6rem;
+  height: 6rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.description-container {
+  width: 65%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  flex-direction: column;
+  margin: 2rem;
+}
+
+.description-container > h1 {
+  margin-bottom: 1rem;
+}
+
+.description-container > p {
+  text-align: right;
+  width: 80%;
+}
