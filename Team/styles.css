@@ -74,8 +74,16 @@ section.team-heading div p {
   display: flex;
   justify-content: center;
   align-items: center;
-  align-self: flex-start;
   margin: 2rem;
+}
+
+.right-team-chief-and-title {
+  align-self: flex-end;
+  flex-direction: row-reverse;
+}
+
+.left-team-chief-and-title {
+  align-self: flex-start;
 }
 
 .team-chief-and-title-container > img {
@@ -95,13 +103,17 @@ section.team-heading div p {
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
-  margin-left: 1rem;
+  margin: 1rem;
 }
 
 .chief {
   background-image: linear-gradient(180deg, #d13180 0%, #6224a7 100%);
   background-clip: text;
   color: transparent;
+}
+
+.left-chief {
+  align-items: flex-end;
 }
 
 .heads-and-description-container {
@@ -132,6 +144,10 @@ section.team-heading div p {
   grid-template-columns: repeat(3, 33.33%);
   row-gap: 1rem;
   width: 100%;
+}
+
+.right-heads {
+  align-self: flex-end;
 }
 
 .heads-container > div > div {
@@ -181,6 +197,11 @@ section.team-heading div p {
   margin: 2rem;
 }
 
+.left-description{
+  align-items: flex-start;
+}
+
+
 .description-container > h1 {
   margin-bottom: 1rem;
 }
@@ -188,4 +209,12 @@ section.team-heading div p {
 .description-container > p {
   text-align: right;
   width: 80%;
+}
+
+.left-description > p {
+  text-align: left;
+}
+
+.heads-and-description-inverse {
+  flex-direction: row-reverse;
 }

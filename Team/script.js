@@ -123,12 +123,11 @@ const syndicates = [
 ];
 
 // fetch DOM containers
-
 const teamContainer = document.querySelector(".team-container");
 
 // rendering the teams HTML dynamically
 let teamsHtml = "";
-teams.forEach((team) => {
+teams.forEach((team, teamIndex) => {
   let headsHtml = "";
 
   team.heads.forEach((head) => {
@@ -146,25 +145,37 @@ teams.forEach((team) => {
 
   teamsHtml += `
   <div class="team-inner-container">
-  <div class="team-chief-and-title-container">
+  <div data-aos="${teamIndex % 2 === 0 ? `fade-left` : `fade-right`}" class="${
+    teamIndex % 2 === 0
+      ? `right-team-chief-and-title`
+      : `left-team-chief-and-title`
+  } team-chief-and-title-container ">
     <img src="${
       team.chief.picture === ""
         ? "../O-portfolio_webp/members_webp/eva.webp"
         : ""
     }" />
-    <div>
+    <div class="${teamIndex % 2 === 0 ? `right-chief` : `left-chief`}">
       <h1 class="chief">Chief of ${team.name}</h1>
       <h1 class="chief-name">${team.chief.name}</h1>
     </div>
   </div>
-  <div class="heads-and-description-container">
-    <div class="heads-container">
-      <h1>Heads</h1>
+  <div class="heads-and-description-container ${
+    teamIndex % 2 === 0 && `heads-and-description-inverse`
+  }">
+    <div class="heads-container" data-aos-delay="150" data-aos="${
+      teamIndex % 2 === 0 ? `fade-left` : `fade-right`
+    }">
+      <h1 class="${teamIndex % 2 === 0 && `right-heads`}">Heads</h1>
       <div class="heads-inner-container">
       ${headsHtml}
       </div>
     </div>
-    <div class="description-container">
+    <div data-aos="${
+      teamIndex % 2 === 0 ? `fade-right` : `fade-left`
+    }"  data-aos-delay="75" class="description-container ${
+    teamIndex % 2 === 0 && `left-description`
+  }">
       <h1>${team.name}</h1>
       <p>
         ${team.description}
