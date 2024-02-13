@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../style.css" />
     <link rel="stylesheet" href="./styles.css" />
-    <title>Contributors</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Team RAS</title>
   </head>
   <body>
     <nav>
@@ -23,7 +24,11 @@
         <li><a href="../index.html#portfolio">Team RAS</a></li>
         <li><a href="../index.html#blog">Events & Seminars</a></li>
         <li><a href="../index.html#contact">Our Stats</a></li>
-        <li><a href="index.html"  class="active">Contributors</a></li>
+        <li>
+          <a href="../Contributors/contributors.html" class="active"
+            >Contributors</a
+          >
+        </li>
       </ul>
       <div class="right-header">
         <a
@@ -37,21 +42,30 @@
         </div>
       </div>
     </nav>
-    <section class="contributor-heading">
+    <section class="team-heading">
       <div>
-        <h1>Contributors</h1>
-        <p>Gratitude to all our Contributors</p>
+        <h1 data-aos="fade-down">Team RAS</h1>
+        <p data-aos="fade-down" data-aos-delay="100">
+          Masterminds of Spring '24 Semester
+        </p>
       </div>
     </section>
-    <section class="contributor-container">
-      <div class="contributor-inner-container"></div>
-    </section>
+    <section class="team-container"></section>
+
     <footer>
       <p>
-        Copyright © 2023. Developed By <span>Muneeb Riaz</span> with 💜 || All
-        Right Reserved.
+        Copyright ©
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        Developed with 💜 | All Rights Reserved.
       </p>
     </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
   <script type="module" src="script.js"></script>
   <script type="module" src="../script.js"></script>
