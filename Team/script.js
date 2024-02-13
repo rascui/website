@@ -125,8 +125,34 @@ const syndicates = [
 // fetch DOM containers
 const teamContainer = document.querySelector(".team-container");
 
+// rendering the syndicates HTML dynamically
+let syndicatesHtml = "";
+syndicates.forEach((syndicate, index) => {
+  syndicatesHtml += `
+  <div class="syndicate-container ${
+    index % 2 === 0 && `right-syndicate-container`
+  }">
+    <div data-aos="${
+      index % 2 === 0 ? `fade-left` : `fade-right`
+    }" class="syndicate-image-container">
+      <div>
+        <img src="../O-portfolio_webp/members_webp/eva.webp" />
+      </div>
+    </div>
+    <div data-aos="${
+      index % 2 === 0 ? `fade-right` : `fade-left`
+    }" class="syndicate-description-container">
+      <div>
+        <h1 class="chief syndicate-title">${syndicate.title}</h1>
+        <h1 class="syndicate-title">${syndicate.name}</h1>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur aut inventore impedit reiciendis distinctio perferendis, suscipit rerum praesentium, ut repudiandae ex at est eligendi minus!</p>
+    </div>
+  </div>
+  `;
+});
+
 // rendering the teams HTML dynamically
-let teamsHtml = "";
 teams.forEach((team, teamIndex) => {
   let headsHtml = "";
 
@@ -143,7 +169,7 @@ teams.forEach((team, teamIndex) => {
         `;
   });
 
-  teamsHtml += `
+  syndicatesHtml += `
   <div class="team-inner-container">
   <div data-aos="${teamIndex % 2 === 0 ? `fade-left` : `fade-right`}" class="${
     teamIndex % 2 === 0
@@ -186,4 +212,4 @@ teams.forEach((team, teamIndex) => {
     `;
 });
 
-teamContainer.innerHTML = teamsHtml;
+teamContainer.innerHTML = syndicatesHtml;
