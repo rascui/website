@@ -1,125 +1,129 @@
 const teams = [
   {
     name: "Tech Ninjas",
-    chief: { name: "Ibraheem Bin Haseeb", picture: "" },
+    chief: { name: "Ali Roohan", picture: "../assets/members/Ali Roohan.jpg" },
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam id temporibus quod harum sit reiciendis aspernatur delectus tempora earum ab!",
     heads: [
-      { name: "Yaman Tariq", title: "Research", picture: "" },
-      { name: "Saadaan Hassan", title: "Github", picture: "" },
-      { name: "TBD", title: "Portal", picture: "" },
-      { name: "Ayaan", title: "Sessions", picture: "" },
+      { name: "M. Haris", title: "Research", picture: "" },
+      { name: "Zeeshan Zafar", title: "Training", picture: "" },
+      { name: "Husnain Ali", title: "IT", picture: "" },
+      { name: "M. Fahad", title: "Hackathon", picture: "" },
     ],
   },
   {
     name: "Marketing Mechs",
-    chief: { name: "Suleiman Butt", picture: "" },
+    chief: { name: "Anoushay Dawood", picture: "../O-portfolio_webp/members_webp/eva.webp" },
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam id temporibus quod harum sit reiciendis aspernatur delectus tempora earum ab!",
     heads: [
-      { name: "Ahmad Zafar", title: "Posters", picture: "" },
-      { name: "Areeba Hamid", title: "Campaigns", picture: "" },
-      { name: "Maheen Shaukat", title: "Preparations", picture: "" },
-      { name: "Ahsan Shahzad", title: "Ideation", picture: "" },
-      { name: "Laiba Amir", title: "Digital Marketing", picture: "" },
+      { name: "Hamnah Butt", title: "Advertisement", picture: "" },
+      { name: "Saleena", title: "Campaigns", picture: "" },
+      { name: "Zainab", title: "Preparations", picture: "" },
+      { name: "Hassan Tariq(", title: "Ideation", picture: "" },
+      { name: "Misbah Sehar", title: "Digital Marketing", picture: "" },
     ],
   },
   {
     name: "Event Elites",
-    chief: { name: "Dabeer Javaid", picture: "" },
+    chief: { name: "Hamad Qamar", picture: "../O-portfolio_webp/members_webp/eva.webp" },
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam id temporibus quod harum sit reiciendis aspernatur delectus tempora earum ab!",
     heads: [
-      { name: "Abdullah", title: "Logistics", picture: "" },
-      { name: "Shaheman", title: "Reservations", picture: "" },
-      { name: "Volunteers", title: "Volunteers", picture: "" },
-      { name: "Laiba", title: "Decor", picture: "" },
-      { name: "Malaika", title: "Operations", picture: "" },
+      { name: "Sufyan Ahmed", title: "Logistics", picture: "" },
+      { name: "Ayesha Khalid", title: "Reservations", picture: "" },
+      { name: "Adeeb Akram", title: "Volunteers", picture: "" },
+      { name: "Fatima Khalid", title: "Decor", picture: "" },
+      { name: "Minahil", title: "Operations", picture: "" },
     ],
   },
   {
     name: "Design Dynamos",
-    chief: { name: "Manal Zahra", picture: "" },
+    chief: { name: "Ramla Shahid", picture: "../O-portfolio_webp/members_webp/eva.webp" },
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam id temporibus quod harum sit reiciendis aspernatur delectus tempora earum ab!",
     heads: [
-      { name: "Abdul Rehman Nadeem", title: "Raster Graphics", picture: "" },
-      { name: "TBD", title: "Vector Graphics", picture: "" },
-      { name: "Muhammad Awais Rasool", title: "Swags", picture: "" },
-      { name: "TBD", title: "Posters", picture: "" },
+      { name: "Jawad Hassan", title: "Raster Graphics", picture: "" },
+      { name: "Maryam Shahzad", title: "Vector Graphics", picture: "" },
+      { name: "Talha Iqbal", title: "Swags", picture: "" },
+      { name: "Adnan Haider", title: "Posters", picture: "" },
+      { name: "Areeba", title: "Branding", picture: "" },
     ],
   },
   {
     name: "Cinematic Cyborgs",
-    chief: { name: "Mahad Iqbal", picture: "" },
+    chief: { name: "Salman Nadeem", picture: "../O-portfolio_webp/members_webp/eva.webp" },
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam id temporibus quod harum sit reiciendis aspernatur delectus tempora earum ab!",
     heads: [
-      { name: "Rafay", title: "Photography", picture: "" },
-      { name: "Muaz Jamil", title: "Films", picture: "" },
-      { name: "Anam", title: "Media", picture: "" },
-      { name: "Bilal", title: "Reels", picture: "" },
-      { name: "Faizan Sharjeel", title: "Lighting", picture: "" },
+      { name: "Urwah Muhammad", title: "Photography", picture: "" },
+      { name: "Azeema Sabir", title: "Media", picture: "" },
+      { name: "Saad Ahmed", title: "Reels", picture: "" },
+      { name: "Najam ul Hassan", title: "Lighting", picture: "" },
     ],
   },
   {
     name: "Social Storms",
-    chief: { name: "Muhammad Qasim", picture: "" },
+    chief: { name: "Alishba Zahra", picture: "../O-portfolio_webp/members_webp/eva.webp" },
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam id temporibus quod harum sit reiciendis aspernatur delectus tempora earum ab!",
     heads: [
-      { name: "TBD", title: "Stories", picture: "" },
-      { name: "Saad", title: "Instagram", picture: "" },
-      { name: "Mubarra", title: "Linkedin", picture: "" },
-      { name: "Raffay", title: "Youtube", picture: "" },
-      { name: "TBD", title: "Website", picture: "" },
+      { name: "Maham Tayyab", title: "Stories", picture: "" },
+      { name: "Malaika Sohail", title: "Instagram", picture: "" },
+      { name: "Mubbara Majid", title: "Linkedin", picture: "" },
+      { name: "Abdul Moiz", title: "Youtube", picture: "" },
+      { name: "Harris Rasheed", title: "Website", picture: "" },
     ],
   },
   {
     name: "Public Pioneers",
-    chief: { name: "TBD", picture: "" },
+    chief: { name: "M. Wajahat Ali", picture: "../O-portfolio_webp/members_webp/eva.webp" },
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam id temporibus quod harum sit reiciendis aspernatur delectus tempora earum ab!",
     heads: [
-      { name: "Shehryar", title: "Emails", picture: "" },
-      { name: "Syed Ahmad Zada", title: "Sponsorships", picture: "" },
-      { name: "Muneeb Asif", title: "Outreach", picture: "" },
-      { name: "Hais Shoaib", title: "Promotions", picture: "" },
-      { name: "Wadood", title: "Podcast", picture: "" },
+      { name: "Ummey Habiba", title: "Emails", picture: "" },
+      { name: "Danyal Mustafa", title: "Sponsorships", picture: "" },
+      { name: "Manal Rehman", title: "Outreach", picture: "" },
+      { name: "Laiba Safdar", title: "Promotions", picture: "" },
+      { name: "Faizan Javed", title: "Podcast", picture: "" },
     ],
   },
   {
-    name: "Androids",
-    chief: { name: "TBD", picture: "" },
+    name: "Data Architects",
+    chief: { name: "Hussain Raza", picture: "../O-portfolio_webp/members_webp/eva.webp" },
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam id temporibus quod harum sit reiciendis aspernatur delectus tempora earum ab!",
     heads: [
-      { name: "TBD", title: "Data", picture: "" },
-      { name: "TBD", title: "Forms", picture: "" },
-      { name: "TBD", title: "Community", picture: "" },
-      { name: "TBD", title: "Resources", picture: "" },
+      { name: "Alizay", title: "Data", picture: "" },
+      { name: "Amna Butt", title: "Forms", picture: "" },
+      { name: "Hamza Afzal", title: "Community", picture: "" },
+      { name: "Aminah Zaka", title: "Resources", picture: "" },
+      { name: "Eman Ahmad", title: "Survey", picture: "" },
     ],
   },
   {
-    name: "Droids",
-    chief: { name: "TBD", picture: "" },
+    name: "Generative Genz",
+    chief: { name: "Zarnab", picture: "../O-portfolio_webp/members_webp/eva.webp" },
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam id temporibus quod harum sit reiciendis aspernatur delectus tempora earum ab!",
     heads: [
-      { name: "TBD", title: "Journal", picture: "" },
-      { name: "TBD", title: "Editor", picture: "" },
-      { name: "TBD", title: "Newsletter", picture: "" },
-      { name: "TBD", title: "Layout", picture: "" },
+      { name: "Abdullah Aftab", title: "Prompt Head", picture: "" },
+      { name: "Rai Faizan Qasim", title: "Journal", picture: "" },
+      { name: "M. Murtaza", title: "Content Creation", picture: "" },
+      { name: "Maira Ahmed", title: "Newsletter", picture: "" },
+      { name: "Syed Ali Qasim", title: "Report", picture: "" },
     ],
   },
 ];
 
 const syndicates = [
-  { name: "Sameer Faisal", title: "Chairperson", picture: "" },
-  { name: "Ali Imran", title: "Vice Chairperson", picture: "" },
+  { name: "Ali Imran", title: "Chairperson", picture: "" },
+  { name: "Zoha Waheed", title: "Vice Chairperson", picture: "" },
   { name: "Fatima Saqib", title: "Wealth Warden", picture: "" },
-  { name: "Zoha Waheed", title: "Chief Strategist", picture: "" },
-  { name: "M. Fahad Bhatti", title: "Co Strategist", picture: "" },
+  { name: "M. Fahad Bhatti", title: "Chief Strategist", picture: "" },
+  { name: "Eiman Fatima", title: "Co Strategist", picture: "" },
+  { name: "Suleiman Butt", title: "Co Strategist", picture: "" },
+  { name: "Moiz Akbar", title: "Discipline Warden", picture: "" },
 ];
 
 // fetch DOM containers
@@ -179,7 +183,7 @@ teams.forEach((team, teamIndex) => {
     <img src="${
       team.chief.picture === ""
         ? "../O-portfolio_webp/members_webp/eva.webp"
-        : ""
+        : team.chief.picture
     }" />
     <div class="${teamIndex % 2 === 0 ? `right-chief` : `left-chief`}">
       <h1 class="chief">Chief of ${team.name}</h1>
